@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct SearchView: View {
+    @State private var Search:String = ""
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Color("Background5")
+                 .ignoresSafeArea(.all)
+            ScrollView(showsIndicators: false) {
+                VStack {
+                    HStack {
+                        Image(systemName: "magnifyingglass")
+                        TextField("Введи запрос",text: $Search)
+                    }.padding(.all)
+                        .frame(width: 343,height: 44)
+                        .background(Color("Background7"))
+                        .cornerRadius(10)
+                        .foregroundColor(Color("Background6"))
+
+                }
+            }
+        }
     }
 }
 
