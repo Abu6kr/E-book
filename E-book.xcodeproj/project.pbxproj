@@ -14,6 +14,18 @@
 		2A49898D2949906600EC12F8 /* E_bookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49898C2949906600EC12F8 /* E_bookTests.swift */; };
 		2A4989972949906700EC12F8 /* E_bookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989962949906700EC12F8 /* E_bookUITests.swift */; };
 		2A4989992949906700EC12F8 /* E_bookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989982949906700EC12F8 /* E_bookUITestsLaunchTests.swift */; };
+		2A4989BC2949995C00EC12F8 /* ProfileEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989BB2949995C00EC12F8 /* ProfileEmptyState.swift */; };
+		2A4989C029499A2E00EC12F8 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989BF29499A2E00EC12F8 /* Stars.swift */; };
+		2A4989D729499D7700EC12F8 /* DiteksBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D029499D7600EC12F8 /* DiteksBookView.swift */; };
+		2A4989D829499D7700EC12F8 /* PageOfAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D129499D7700EC12F8 /* PageOfAuthor.swift */; };
+		2A4989D929499D7700EC12F8 /* DolodingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D229499D7700EC12F8 /* DolodingBook.swift */; };
+		2A4989DA29499D7700EC12F8 /* ReadingBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D329499D7700EC12F8 /* ReadingBookView.swift */; };
+		2A4989DB29499D7700EC12F8 /* AllBookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D429499D7700EC12F8 /* AllBookList.swift */; };
+		2A4989DC29499D7700EC12F8 /* HomeBookNointerint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D529499D7700EC12F8 /* HomeBookNointerint.swift */; };
+		2A4989DD29499D7700EC12F8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D629499D7700EC12F8 /* Home.swift */; };
+		2A4989DF2949A1D900EC12F8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989DE2949A1D900EC12F8 /* TabBar.swift */; };
+		2A4989E12949A3DE00EC12F8 /* AudioBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989E02949A3DE00EC12F8 /* AudioBooks.swift */; };
+		2A4989E32949BD1B00EC12F8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4989E22949BD1B00EC12F8 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		2A4989922949906700EC12F8 /* E-bookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-bookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4989962949906700EC12F8 /* E_bookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_bookUITests.swift; sourceTree = "<group>"; };
 		2A4989982949906700EC12F8 /* E_bookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_bookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A4989BB2949995C00EC12F8 /* ProfileEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEmptyState.swift; sourceTree = "<group>"; };
+		2A4989BF29499A2E00EC12F8 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
+		2A4989D029499D7600EC12F8 /* DiteksBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiteksBookView.swift; path = "E-book/Views/HomeViewsall/DiteksBookView.swift"; sourceTree = SOURCE_ROOT; };
+		2A4989D129499D7700EC12F8 /* PageOfAuthor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageOfAuthor.swift; path = "E-book/Views/HomeViewsall/PageOfAuthor.swift"; sourceTree = SOURCE_ROOT; };
+		2A4989D229499D7700EC12F8 /* DolodingBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DolodingBook.swift; path = "E-book/Views/HomeViewsall/DolodingBook.swift"; sourceTree = SOURCE_ROOT; };
+		2A4989D329499D7700EC12F8 /* ReadingBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadingBookView.swift; path = "E-book/Views/HomeViewsall/ReadingBookView.swift"; sourceTree = SOURCE_ROOT; };
+		2A4989D429499D7700EC12F8 /* AllBookList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllBookList.swift; path = "E-book/Views/HomeViewsall/AllBookList.swift"; sourceTree = SOURCE_ROOT; };
+		2A4989D529499D7700EC12F8 /* HomeBookNointerint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeBookNointerint.swift; path = "E-book/Views/HomeViewsall/HomeBookNointerint.swift"; sourceTree = SOURCE_ROOT; };
+		2A4989D629499D7700EC12F8 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Home.swift; path = "E-book/Views/HomeViewsall/Home.swift"; sourceTree = SOURCE_ROOT; };
+		2A4989DE2949A1D900EC12F8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2A4989E02949A3DE00EC12F8 /* AudioBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioBooks.swift; path = "E-book/Component/AudioBooks.swift"; sourceTree = SOURCE_ROOT; };
+		2A4989E22949BD1B00EC12F8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +120,12 @@
 			children = (
 				2A49897B2949906400EC12F8 /* E_bookApp.swift */,
 				2A49897D2949906400EC12F8 /* ContentView.swift */,
+				2A4989E22949BD1B00EC12F8 /* Launch Screen.storyboard */,
+				2A4989AC2949922A00EC12F8 /* Model */,
+				2A4989BE294999C800EC12F8 /* OnboardingViews */,
+				2A4989A52949910D00EC12F8 /* Views */,
+				2A4989A62949911B00EC12F8 /* Component */,
+				2A4989BD2949999F00EC12F8 /* Anmashin */,
 				2A49897F2949906600EC12F8 /* Assets.xcassets */,
 				2A4989812949906600EC12F8 /* Preview Content */,
 			);
@@ -125,6 +155,84 @@
 				2A4989982949906700EC12F8 /* E_bookUITestsLaunchTests.swift */,
 			);
 			path = "E-bookUITests";
+			sourceTree = "<group>";
+		};
+		2A4989A52949910D00EC12F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A4989A72949913500EC12F8 /* HomeViews */,
+				2A4989AA2949918C00EC12F8 /* MybooksViews */,
+				2A4989AB2949920B00EC12F8 /* SearchViews */,
+				2A4989A92949916700EC12F8 /* ProfilViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A4989A62949911B00EC12F8 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				2A4989DE2949A1D900EC12F8 /* TabBar.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		2A4989A72949913500EC12F8 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				2A4989D629499D7700EC12F8 /* Home.swift */,
+				2A4989E02949A3DE00EC12F8 /* AudioBooks.swift */,
+				2A4989D429499D7700EC12F8 /* AllBookList.swift */,
+				2A4989D029499D7600EC12F8 /* DiteksBookView.swift */,
+				2A4989D229499D7700EC12F8 /* DolodingBook.swift */,
+				2A4989D529499D7700EC12F8 /* HomeBookNointerint.swift */,
+				2A4989D129499D7700EC12F8 /* PageOfAuthor.swift */,
+				2A4989D329499D7700EC12F8 /* ReadingBookView.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		2A4989A92949916700EC12F8 /* ProfilViews */ = {
+			isa = PBXGroup;
+			children = (
+				2A4989BB2949995C00EC12F8 /* ProfileEmptyState.swift */,
+			);
+			path = ProfilViews;
+			sourceTree = "<group>";
+		};
+		2A4989AA2949918C00EC12F8 /* MybooksViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MybooksViews;
+			sourceTree = "<group>";
+		};
+		2A4989AB2949920B00EC12F8 /* SearchViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchViews;
+			sourceTree = "<group>";
+		};
+		2A4989AC2949922A00EC12F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A4989BD2949999F00EC12F8 /* Anmashin */ = {
+			isa = PBXGroup;
+			children = (
+				2A4989BF29499A2E00EC12F8 /* Stars.swift */,
+			);
+			path = Anmashin;
+			sourceTree = "<group>";
+		};
+		2A4989BE294999C800EC12F8 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnboardingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4989E32949BD1B00EC12F8 /* Launch Screen.storyboard in Resources */,
 				2A4989832949906600EC12F8 /* Preview Assets.xcassets in Resources */,
 				2A4989802949906600EC12F8 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +366,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4989DB29499D7700EC12F8 /* AllBookList.swift in Sources */,
+				2A4989DC29499D7700EC12F8 /* HomeBookNointerint.swift in Sources */,
+				2A4989DA29499D7700EC12F8 /* ReadingBookView.swift in Sources */,
+				2A4989DF2949A1D900EC12F8 /* TabBar.swift in Sources */,
+				2A4989DD29499D7700EC12F8 /* Home.swift in Sources */,
+				2A4989D729499D7700EC12F8 /* DiteksBookView.swift in Sources */,
+				2A4989C029499A2E00EC12F8 /* Stars.swift in Sources */,
+				2A4989D829499D7700EC12F8 /* PageOfAuthor.swift in Sources */,
 				2A49897E2949906400EC12F8 /* ContentView.swift in Sources */,
+				2A4989E12949A3DE00EC12F8 /* AudioBooks.swift in Sources */,
+				2A4989D929499D7700EC12F8 /* DolodingBook.swift in Sources */,
 				2A49897C2949906400EC12F8 /* E_bookApp.swift in Sources */,
+				2A4989BC2949995C00EC12F8 /* ProfileEmptyState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +540,13 @@
 				DEVELOPMENT_TEAM = 2LQ3WQGT35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +554,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "abobkr6-icloud.com.E-book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +574,13 @@
 				DEVELOPMENT_TEAM = 2LQ3WQGT35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +588,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "abobkr6-icloud.com.E-book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

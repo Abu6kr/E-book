@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+        UITabBar.appearance().barTintColor = UIColor(named: "Background7")
+    }
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            Home()
+                .tabItem {
+                Text("Рекомендации")
+                Image(systemName: "lightbulb")
+            }
+            Text("Мои книги")
+                .tabItem {
+                Text("Мои книги")
+                Image(systemName: "book.fill")
+            }
+            Text("Поиск")
+                .tabItem {
+                Text("Поиск")
+                Image(systemName: "magnifyingglass")
+            }
+          ProfileEmptyState()
+                .tabItem {
+                Text("Профиль")
+                Image(systemName: "person")
+            }
         }
-        .padding()
+        .accentColor(Color("Buttons"))
     }
 }
 
