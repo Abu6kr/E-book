@@ -13,7 +13,7 @@ struct ContentView: View {
     }
     var body: some View {
         TabView {
-            Home()
+            HomeView()
                 .tabItem {
                 Text("Рекомендации")
                 Image(systemName: "lightbulb")
@@ -23,12 +23,12 @@ struct ContentView: View {
                 Text("Мои книги")
                 Image(systemName: "book.fill")
             }
-            Text("Поиск")
+            SearchView()
                 .tabItem {
                 Text("Поиск")
                 Image(systemName: "magnifyingglass")
             }
-          ProfileEmptyState()
+          ProfileView()
                 .tabItem {
                 Text("Профиль")
                 Image(systemName: "person")

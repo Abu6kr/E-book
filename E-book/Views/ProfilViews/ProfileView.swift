@@ -8,7 +8,7 @@
 import SwiftUI
 import PhotosUI
 
-struct ProfileEmptyState: View {
+struct ProfileView: View {
     @State private var selctionImage:PhotosPickerItem?
     @State private var selectedPhotoData: Data?
     @State private var Loding = false
@@ -170,6 +170,6 @@ struct ProfileEmptyState: View {
 
 struct ProfileEmptyState_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileEmptyState()
+        ProfileView()
     }
 }
