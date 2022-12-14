@@ -16,16 +16,16 @@
 		2A4989992949906700EC12F8 /* E_bookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989982949906700EC12F8 /* E_bookUITestsLaunchTests.swift */; };
 		2A4989BC2949995C00EC12F8 /* ProfileEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989BB2949995C00EC12F8 /* ProfileEmptyState.swift */; };
 		2A4989C029499A2E00EC12F8 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989BF29499A2E00EC12F8 /* Stars.swift */; };
-		2A4989D729499D7700EC12F8 /* DiteksBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D029499D7600EC12F8 /* DiteksBookView.swift */; };
-		2A4989D829499D7700EC12F8 /* PageOfAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D129499D7700EC12F8 /* PageOfAuthor.swift */; };
-		2A4989D929499D7700EC12F8 /* DolodingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D229499D7700EC12F8 /* DolodingBook.swift */; };
-		2A4989DA29499D7700EC12F8 /* ReadingBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D329499D7700EC12F8 /* ReadingBookView.swift */; };
-		2A4989DB29499D7700EC12F8 /* AllBookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D429499D7700EC12F8 /* AllBookList.swift */; };
-		2A4989DC29499D7700EC12F8 /* HomeBookNointerint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D529499D7700EC12F8 /* HomeBookNointerint.swift */; };
-		2A4989DD29499D7700EC12F8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989D629499D7700EC12F8 /* Home.swift */; };
 		2A4989DF2949A1D900EC12F8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989DE2949A1D900EC12F8 /* TabBar.swift */; };
 		2A4989E12949A3DE00EC12F8 /* AudioBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4989E02949A3DE00EC12F8 /* AudioBooks.swift */; };
 		2A4989E32949BD1B00EC12F8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4989E22949BD1B00EC12F8 /* Launch Screen.storyboard */; };
+		2AFE430E2949C622004F9A68 /* PageOfAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE43072949C621004F9A68 /* PageOfAuthor.swift */; };
+		2AFE430F2949C622004F9A68 /* AllBookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE43082949C621004F9A68 /* AllBookList.swift */; };
+		2AFE43102949C622004F9A68 /* HomeBookNointerint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE43092949C621004F9A68 /* HomeBookNointerint.swift */; };
+		2AFE43112949C622004F9A68 /* ReadingBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE430A2949C621004F9A68 /* ReadingBookView.swift */; };
+		2AFE43122949C622004F9A68 /* DiteksBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE430B2949C622004F9A68 /* DiteksBookView.swift */; };
+		2AFE43132949C622004F9A68 /* DolodingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE430C2949C622004F9A68 /* DolodingBook.swift */; };
+		2AFE43142949C622004F9A68 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE430D2949C622004F9A68 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,16 +58,16 @@
 		2A4989982949906700EC12F8 /* E_bookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_bookUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2A4989BB2949995C00EC12F8 /* ProfileEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEmptyState.swift; sourceTree = "<group>"; };
 		2A4989BF29499A2E00EC12F8 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
-		2A4989D029499D7600EC12F8 /* DiteksBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiteksBookView.swift; path = "E-book/Views/HomeViewsall/DiteksBookView.swift"; sourceTree = SOURCE_ROOT; };
-		2A4989D129499D7700EC12F8 /* PageOfAuthor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageOfAuthor.swift; path = "E-book/Views/HomeViewsall/PageOfAuthor.swift"; sourceTree = SOURCE_ROOT; };
-		2A4989D229499D7700EC12F8 /* DolodingBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DolodingBook.swift; path = "E-book/Views/HomeViewsall/DolodingBook.swift"; sourceTree = SOURCE_ROOT; };
-		2A4989D329499D7700EC12F8 /* ReadingBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadingBookView.swift; path = "E-book/Views/HomeViewsall/ReadingBookView.swift"; sourceTree = SOURCE_ROOT; };
-		2A4989D429499D7700EC12F8 /* AllBookList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllBookList.swift; path = "E-book/Views/HomeViewsall/AllBookList.swift"; sourceTree = SOURCE_ROOT; };
-		2A4989D529499D7700EC12F8 /* HomeBookNointerint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeBookNointerint.swift; path = "E-book/Views/HomeViewsall/HomeBookNointerint.swift"; sourceTree = SOURCE_ROOT; };
-		2A4989D629499D7700EC12F8 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Home.swift; path = "E-book/Views/HomeViewsall/Home.swift"; sourceTree = SOURCE_ROOT; };
 		2A4989DE2949A1D900EC12F8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		2A4989E02949A3DE00EC12F8 /* AudioBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioBooks.swift; path = "E-book/Component/AudioBooks.swift"; sourceTree = SOURCE_ROOT; };
 		2A4989E22949BD1B00EC12F8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2AFE43072949C621004F9A68 /* PageOfAuthor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageOfAuthor.swift; sourceTree = "<group>"; };
+		2AFE43082949C621004F9A68 /* AllBookList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllBookList.swift; sourceTree = "<group>"; };
+		2AFE43092949C621004F9A68 /* HomeBookNointerint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBookNointerint.swift; sourceTree = "<group>"; };
+		2AFE430A2949C621004F9A68 /* ReadingBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingBookView.swift; sourceTree = "<group>"; };
+		2AFE430B2949C622004F9A68 /* DiteksBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiteksBookView.swift; sourceTree = "<group>"; };
+		2AFE430C2949C622004F9A68 /* DolodingBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolodingBook.swift; sourceTree = "<group>"; };
+		2AFE430D2949C622004F9A68 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,14 +179,14 @@
 		2A4989A72949913500EC12F8 /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
-				2A4989D629499D7700EC12F8 /* Home.swift */,
+				2AFE43082949C621004F9A68 /* AllBookList.swift */,
+				2AFE430B2949C622004F9A68 /* DiteksBookView.swift */,
+				2AFE430C2949C622004F9A68 /* DolodingBook.swift */,
+				2AFE430D2949C622004F9A68 /* Home.swift */,
+				2AFE43092949C621004F9A68 /* HomeBookNointerint.swift */,
+				2AFE43072949C621004F9A68 /* PageOfAuthor.swift */,
+				2AFE430A2949C621004F9A68 /* ReadingBookView.swift */,
 				2A4989E02949A3DE00EC12F8 /* AudioBooks.swift */,
-				2A4989D429499D7700EC12F8 /* AllBookList.swift */,
-				2A4989D029499D7600EC12F8 /* DiteksBookView.swift */,
-				2A4989D229499D7700EC12F8 /* DolodingBook.swift */,
-				2A4989D529499D7700EC12F8 /* HomeBookNointerint.swift */,
-				2A4989D129499D7700EC12F8 /* PageOfAuthor.swift */,
-				2A4989D329499D7700EC12F8 /* ReadingBookView.swift */,
 			);
 			path = HomeViews;
 			sourceTree = "<group>";
@@ -366,17 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4989DB29499D7700EC12F8 /* AllBookList.swift in Sources */,
-				2A4989DC29499D7700EC12F8 /* HomeBookNointerint.swift in Sources */,
-				2A4989DA29499D7700EC12F8 /* ReadingBookView.swift in Sources */,
 				2A4989DF2949A1D900EC12F8 /* TabBar.swift in Sources */,
-				2A4989DD29499D7700EC12F8 /* Home.swift in Sources */,
-				2A4989D729499D7700EC12F8 /* DiteksBookView.swift in Sources */,
 				2A4989C029499A2E00EC12F8 /* Stars.swift in Sources */,
-				2A4989D829499D7700EC12F8 /* PageOfAuthor.swift in Sources */,
+				2AFE430E2949C622004F9A68 /* PageOfAuthor.swift in Sources */,
+				2AFE43122949C622004F9A68 /* DiteksBookView.swift in Sources */,
 				2A49897E2949906400EC12F8 /* ContentView.swift in Sources */,
+				2AFE43112949C622004F9A68 /* ReadingBookView.swift in Sources */,
+				2AFE43142949C622004F9A68 /* Home.swift in Sources */,
+				2AFE43102949C622004F9A68 /* HomeBookNointerint.swift in Sources */,
+				2AFE430F2949C622004F9A68 /* AllBookList.swift in Sources */,
+				2AFE43132949C622004F9A68 /* DolodingBook.swift in Sources */,
 				2A4989E12949A3DE00EC12F8 /* AudioBooks.swift in Sources */,
-				2A4989D929499D7700EC12F8 /* DolodingBook.swift in Sources */,
 				2A49897C2949906400EC12F8 /* E_bookApp.swift in Sources */,
 				2A4989BC2949995C00EC12F8 /* ProfileEmptyState.swift in Sources */,
 			);
