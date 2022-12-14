@@ -43,6 +43,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-public static func setupSearh() {
-    
-}
