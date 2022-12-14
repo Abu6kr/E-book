@@ -18,7 +18,7 @@ struct ContentView: View {
                 Text("Рекомендации")
                 Image(systemName: "lightbulb")
             }
-            Text("Мои книги")
+            MyBookView()
                 .tabItem {
                 Text("Мои книги")
                 Image(systemName: "book.fill")

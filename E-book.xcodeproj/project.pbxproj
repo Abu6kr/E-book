@@ -27,6 +27,7 @@
 		2AFE43132949C622004F9A68 /* DolodingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE430C2949C622004F9A68 /* DolodingBook.swift */; };
 		2AFE43142949C622004F9A68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE430D2949C622004F9A68 /* HomeView.swift */; };
 		2AFE43162949C68D004F9A68 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE43152949C68D004F9A68 /* SearchView.swift */; };
+		2AFE43182949D65C004F9A68 /* MyBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE43172949D65C004F9A68 /* MyBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		2AFE430C2949C622004F9A68 /* DolodingBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolodingBook.swift; sourceTree = "<group>"; };
 		2AFE430D2949C622004F9A68 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2AFE43152949C68D004F9A68 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2AFE43172949D65C004F9A68 /* MyBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		2A4989AA2949918C00EC12F8 /* MybooksViews */ = {
 			isa = PBXGroup;
 			children = (
+				2AFE43172949D65C004F9A68 /* MyBookView.swift */,
 			);
 			path = MybooksViews;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				2AFE430F2949C622004F9A68 /* AllBookList.swift in Sources */,
 				2AFE43132949C622004F9A68 /* DolodingBook.swift in Sources */,
 				2AFE43162949C68D004F9A68 /* SearchView.swift in Sources */,
+				2AFE43182949D65C004F9A68 /* MyBookView.swift in Sources */,
 				2A4989E12949A3DE00EC12F8 /* AudioBooks.swift in Sources */,
 				2A49897C2949906400EC12F8 /* E_bookApp.swift in Sources */,
 				2A4989BC2949995C00EC12F8 /* ProfileView.swift in Sources */,
