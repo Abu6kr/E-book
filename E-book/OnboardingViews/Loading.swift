@@ -9,7 +9,23 @@ import SwiftUI
 
 struct Loading: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color("Background5")
+                .ignoresSafeArea(.all)
+            VStack(alignment: .center,spacing: 12) {
+                Text("Добро пожаловать в мир книг")
+                    .font(.system(size: 28,weight: .regular))
+                    .multilineTextAlignment(.center)
+                    .frame(width: 270)
+                
+                Text("Доступно 50 000 книг для чтения бесплатно. С платной подпиской можно читать литературу на иностранных языках")
+                    .frame(width: 270)
+                    .multilineTextAlignment(.center)
+                    .font(.system(size: 16,weight: .light))
+                    .foregroundColor(Color("Background4"))
+            }
+            .foregroundColor(Color("Background6"))
+        }
     }
 }
 
