@@ -209,7 +209,7 @@ struct Disover: View {
                     }
                 }
                 Spacer()
-                
+
             }
         }.padding(.horizontal)
     }
@@ -427,3 +427,6 @@ struct TheBookDolding: View {
         }.foregroundColor(Color("Background6"))
     }
 }
+
+
+
