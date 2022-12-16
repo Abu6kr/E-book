@@ -8,8 +8,41 @@
 import SwiftUI
 
 struct YourName: View {
+    @State var  UorNamr: String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color("Background5")
+                .ignoresSafeArea(.all)
+            VStack {
+                Image("WhatYouName")
+                VStack(alignment: .center,spacing: 21) {
+                    Text("Как к тебе обращаться? ")
+                        .font(.system(size: 28,weight: .regular))
+                    
+                    HStack {
+                        TextField("Whats your name",text: $UorNamr)
+                     
+                    }.padding(.all)
+                        .frame(width: 343,height: 44)
+                        .background(RoundedRectangle(cornerRadius: 10).stroke(lineWidth: 1)
+                        .background(Color("Background7").cornerRadius(10)))
+                        .foregroundColor(Color.black.opacity(0.3))
+                }
+                Spacer()
+                Button(action: {
+                    print("save  the name")
+                }, label: {
+                    HStack(alignment: .center) {
+                        Text("Сохранить")
+                    }.padding(.all)
+                        .frame(width: 343,height: 48)
+                        .background(Color("Background8"))
+                        .cornerRadius(10)
+                        .foregroundColor(Color("Background9"))
+                        
+                })
+            }
+        }
     }
 }
 

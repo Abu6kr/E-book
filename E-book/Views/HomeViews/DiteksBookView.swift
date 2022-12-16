@@ -387,46 +387,47 @@ struct BookLiteMo:View {
 
 
 
-struct TheBookDolding: View {
-    var body: some View{
-        HStack(alignment: .center) {
-            VStack(alignment: .leading) {
-                NavigationLink(destination: {
-                    DiteksBookView()
-                }, label: {
-                    ZStack(alignment: .bottomTrailing) {
-                        Rectangle()
-                        HStack(alignment: .center,spacing: 2) {
-                            Image(systemName: "headphones")
-    //                        Image(systemName: "line.diagonal")
-                            Image(systemName: "book")
-                        }.padding(.all)
-                            .font(.system(size: 10))
-                            .background(Color.white)
-                            .frame(width: 38,height: 16)
-                            .cornerRadius(7)
-                            .foregroundColor(Color.black)
-                            .padding([.bottom, .trailing], 8.0)
-                    }
-                })
-          
-                    .frame(width: 100,height: 144)
-                    .cornerRadius(10)
-                    .foregroundColor(Color.red)
-                HStack(alignment: .bottom,spacing: 2) {
-                    Stars(rating: .constant(4))
-
-                }
-                Text("Волшебные миры Мияд...")
-                    .font(.system(size: 16,weight: .semibold))
-                    .frame(width: 104,height: 40)
-                Text("Сюзан Нейпир")
-                    .font(.system(size: 12,weight: .light))
-                  
-            }
-        }.foregroundColor(Color("Background6"))
-    }
-}
+//struct TheBookDolding: View {
+//    let modelBook: ModelBook
+//    var body: some View{
+//        HStack(alignment: .center) {
+//            VStack(alignment: .leading) {
+//                NavigationLink(destination: {
+//                    DiteksBookView()
+//                }, label: {
+//                    ZStack(alignment: .bottomTrailing) {
+//                        Image(modelBook.ImageBook)
+//                        HStack(alignment: .center,spacing: 2) {
+//                            Image(systemName: "headphones")
+//    //                        Image(systemName: "line.diagonal")
+//                            Image(systemName: "book")
+//                        }.padding(.all)
+//                            .font(.system(size: 10))
+//                            .background(Color.white)
+//                            .frame(width: 38,height: 16)
+//                            .cornerRadius(7)
+//                            .foregroundColor(Color.black)
+//                            .padding([.bottom, .trailing], 8.0)
+//                    }
+//                })
+//
+//                    .frame(width: 100,height: 144)
+//                    .cornerRadius(10)
+//                    .foregroundColor(Color.red)
+//                HStack(alignment: .bottom,spacing: 2) {
+//                    Stars(rating: .constant(4))
+//
+//                }
+//                Text("Волшебные миры Мияд...")
+//                    .font(.system(size: 16,weight: .semibold))
+//                    .frame(width: 104,height: 40)
+//                Text("Сюзан Нейпир")
+//                    .font(.system(size: 12,weight: .light))
+//
+//            }
+//        }.foregroundColor(Color("Background6"))
+//    }
+//}
 
 
 

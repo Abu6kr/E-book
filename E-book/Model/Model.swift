@@ -8,10 +8,13 @@
 import Foundation
 
 
-struct MoeNames : Hashable {
+struct MoeNames:Hashable {
     let names: String
 }
 
+struct ModelBook: Hashable {
+    let ImageBook,NameBook,HomeMadeBook,TitelBook:String
+}
 
 
 
