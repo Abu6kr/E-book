@@ -140,7 +140,6 @@
 			children = (
 				2A49897B2949906400EC12F8 /* E_bookApp.swift */,
 				2A49897D2949906400EC12F8 /* ContentView.swift */,
-				2A4989E22949BD1B00EC12F8 /* Launch Screen.storyboard */,
 				2A4989AC2949922A00EC12F8 /* Model */,
 				2A4989BE294999C800EC12F8 /* OnboardingViews */,
 				2A4989A52949910D00EC12F8 /* Views */,
@@ -257,6 +256,7 @@
 		2A4989BE294999C800EC12F8 /* OnboardingViews */ = {
 			isa = PBXGroup;
 			children = (
+				2A4989E22949BD1B00EC12F8 /* Launch Screen.storyboard */,
 				2A2FF4AA294B02900002BD54 /* Loading.swift */,
 			);
 			path = OnboardingViews;
